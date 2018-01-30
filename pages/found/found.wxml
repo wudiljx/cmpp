@@ -1,0 +1,5 @@
+<!--pages/fount/fount.wxml-->
+
+<loading hidden="{{!loading}}">
+  发现了什么...
+</loading>

@@ -1,0 +1,50 @@
+/* pages/details/details.wxss */
+.detailsBox{
+  padding: 0 14rpx;
+}
+.detailsTitle{
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.detailsInBox{
+  width: 100%;
+  height: 44rpx;
+  line-height: 44rpx;
+  padding: 2rpx;
+  overflow: hidden;
+  margin: 12rpx auto;
+}
+.detailsH2{
+  text-align: left;
+  font-size: 34rpx;
+  font-weight: bold;
+  float: left;
+  overflow: hidden;
+  padding: 2rpx;
+  width: 20%;
+}
+.detailsTxt{
+  float: left;
+  text-align: left;
+  font-size: 32rpx;
+  padding: 2rpx;
+  overflow: hidden;
+  width: 75%;
+}
+.detailsH3{
+  text-align: left;
+  font-size: 34rpx;
+  font-weight: bold;
+  float: left;
+  overflow: hidden;
+  padding: 2rpx;
+  width: 45%;
+}
+.detailsH4{
+  width: 100%;
+  font-size: 34rpx;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 2rpx;
+}

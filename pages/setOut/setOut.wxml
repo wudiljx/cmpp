@@ -1,0 +1,61 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-panel weui-panel_access">
+
+            <view class="weui-panel__bd">
+                <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+                        <image class="weui-media-box__thumb" src="{{icon60}}" />
+                    </view>
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                        <view class="weui-media-box__title">大众宝来</view>
+                        <view class="weui-media-box__desc">出发时间和地点：1月27日下午2点</view>
+                        <view class="weui-media-box__desc">出发地点：天通苑北地铁站 </view>
+                        <view class="weui-media-box__desc">剩余座位：4</view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+<view class="page__bd">
+    <view class="section">
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker">
+          当前选择：{{array[index]}}
+        </view>
+      </picker>
+    </view>
+
+    <view class="section">
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker">
+          当前选择：{{array[index]}}
+        </view>
+      </picker>
+    </view>
+    
+    <view class="section">
+ 
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <view class="picker">
+          当前选择: {{date}}
+        </view>
+      </picker>
+    </view>
+
+    <view class="section">
+
+      <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">
+        <view class="picker">
+          当前选择: {{time}}
+        </view>
+      </picker>
+    </view>
+
+    <view class="page__bd page__bd_spacing" id="buttonContainer">
+        <button class="weui-btn" type="primary">查询</button>
+    </view>
+
+
+        </view>
+    </view>
+</view>

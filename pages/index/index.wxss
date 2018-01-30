@@ -1,0 +1,120 @@
+/* pages/setOut/setOut.wxss */
+/* pages/search/search.wxss */
+.container{
+  min-height: 1206rpx;
+}
+.searchBox{
+  border-bottom: 2rpx solid #C5C5C5;
+  border-top: 2rpx solid #C5C5C5;
+  overflow: hidden;
+}
+.searchBtn{
+  margin:14rpx 14rpx 0rpx 14rpx;
+}
+input{
+  font-size: 28rpx;
+  width: 590rpx;
+  color: #434343;
+  float: left;
+  overflow: hidden;
+  padding-bottom: 4rpx;
+  margin-bottom: 4rpx;
+  margin-top:4rpx;
+}
+icon{
+  float: left;
+  overflow: hidden;
+  margin: 14rpx 12rpx 12rpx 12rpx;
+}
+.searchTextBoxShow{
+  display: block;
+}
+.searchTextBoxHide{
+  display:none
+}
+.searchTextBox{
+  margin:30rpx 15rpx;
+  font-size:24rpx;
+  padding:10rpx 22rpx;
+}
+.noSearchTip{
+  font-size:24rpx;
+  margin:120rpx auto;
+  text-align:center;
+  display:block;
+}
+.searchText{
+  color: #1360A0;
+}
+/* 搜索到的内容 */
+.searchList{
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+.searchContent{
+  height: 84rpx;
+  line-height: 84rpx;
+  width: 688rpx;
+  margin:0 auto;
+  border-bottom: 2rpx solid #E8E8E8;
+}
+/* list */
+.listBox{
+  width: 100%;
+  height:180rpx;
+  padding: 10rpx;
+  overflow: hidden;
+  border-bottom: 2rpx solid #E8E8E8;
+}
+.box1,.box2,.box3{
+  width: 30%;
+  float: left;
+  overflow: hidden;
+}
+.box1 .text1,.box1 .text2,.box1 .text3,.box2 .text1,.box2 .text2,.box2 .text3,.box3 .text1,.boxIn .text4,.boxIn .text5{
+  font-size:24rpx;
+  padding: 2rpx auto;
+}
+.box1 .text1{
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  overflow: hidden;
+  text-align: center;
+  font-size: 30rpx;
+}
+.box1 .text2,.box1 .text3{
+  text-align: center;
+  height: 30rpx;
+  line-height: 30rpx;
+}
+.box2 .text1,.box2 .text2,.box2 .text3{
+  width: 100%;
+  height: 60rpx;
+  line-height: 60rpx;
+  overflow: hidden;
+  text-align: left;
+}
+.box3 .text1{
+  width: 150rpx;
+  height: 130rpx;
+  margin: 0 auto;
+  background-color: #1360A0;
+}
+.boxIn .text4, .boxIn .text5{
+  overflow: hidden;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+.boxIn{
+  height: 60rpx;
+  line-height: 60rpx;
+  overflow: hidden;
+}
+.text1 image{
+  width: 100%;
+  height:100%;
+}

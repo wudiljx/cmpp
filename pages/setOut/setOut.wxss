@@ -1,0 +1,6 @@
+/* pages/setOut/setOut.wxss */
+
+.picker{
+  padding: 26rpx;
+  background-color: #FFFFFF;
+}
