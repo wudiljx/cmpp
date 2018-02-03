@@ -4,7 +4,7 @@
     <view class='detailsTitle'>北京-大同</view>
     <view class='detailsInBox'>
       <view class='detailsH2'>出发地：</view>
-      <navigator class="detailsTxt">林萃桥</navigator>
+      <view class="detailsTxt">林萃桥</view>
     </view>
     <view class='detailsInBox'>
       <view class='detailsH2'>途径：</view>
@@ -15,14 +15,14 @@
       <view class='detailsH3'>提供座位: 3</view>
     </view>
     <view class='detailsH4'>取消政策：严格</view>
-    <view>
-      <view>
+    <view class='detailsDPBox'>
+      <view class='detailsDPIn'>
         <view>张三是一位好司机！</view>
         <view>张三是个老司机</view>
       </view>
-      <view>
-        <view><image></image></view>
-        <view>
+      <view class='detailsDPIn'>
+        <view class='dPInImgBox'><image></image></view>
+        <view class='dPInTxtBox'>
           <view>张三</view>
           <view>赞</view>
         </view>

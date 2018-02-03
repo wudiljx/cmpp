@@ -48,3 +48,37 @@
   overflow: hidden;
   padding: 2rpx;
 }
+.detailsDPBox{
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  margin-top: 20rpx;
+  height: 300rpx;
+}
+.detailsDPBox .detailsDPIn{
+  width: 50%;
+}
+.dPInImgBox{
+  width: 100%;
+  height: 250rpx;
+  overflow: hidden;
+  background-color:blue;
+}
+.dPInImgBox image{
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+}
+.dPInTxtBox{
+  width: 100%;
+  height: 50rpx;
+  overflow: hidden;
+}
+.dPInTxtBox view{
+  width: 50%;
+  height: 50rpx;
+  line-height: 50rpx;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+}
