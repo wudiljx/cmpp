@@ -24,7 +24,7 @@
         <view class='dPInImgBox'><image src='../../image/timg.jpg'></image></view>
         <view class='dPInTxtBox'>
           <view>张三</view>
-          <view>赞</view>
+          <view>赞赞</view>
         </view>
       </view>
     </view>
