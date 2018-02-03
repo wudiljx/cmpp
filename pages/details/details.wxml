@@ -21,7 +21,7 @@
         <view>张三是个老司机</view>
       </view>
       <view class='detailsDPIn'>
-        <view class='dPInImgBox'><image></image></view>
+        <view class='dPInImgBox'><image src='../../image/timg.jpg'></image></view>
         <view class='dPInTxtBox'>
           <view>张三</view>
           <view>赞</view>
